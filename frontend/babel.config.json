@@ -1,0 +1,24 @@
+{
+    "plugins": [
+        "@babel/syntax-dynamic-import",
+        "react-hot-loader/babel",
+        "@emotion"
+    ],
+    "presets": [
+        [
+            "@babel/preset-env",
+            {
+                "modules": false,
+                "useBuiltIns": "entry",
+                "corejs": "3.8"
+            }
+        ],
+        [
+            "@babel/preset-react",
+            {
+                "throwIfNamespace": false,
+                "runtime": "automatic"
+            }
+        ]
+    ]
+}

@@ -1,0 +1,7 @@
+#!/bin/bash
+psql \
+  --host=db-instance.craibabpfa33.ap-south-1.rds.amazonaws.com \
+  --port=5432 \
+  --username=shrey_bana \
+  --password \
+  --dbname=messagedb
